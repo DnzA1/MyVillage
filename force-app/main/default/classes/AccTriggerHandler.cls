@@ -8,6 +8,8 @@ public with sharing class AccTriggerHandler {
         }
     }
 //deneme 22222
+//deneme 22222
+//deneme 22222
     public static void addErr4(List<Account> Triggernew, List<Account> Triggerold, Map<Id, Account> TriggernewMap,  Map<Id, Account> TriggeroldMap){
         for(Account acc : Triggerold){
             if(acc.Type == 'Other'){
