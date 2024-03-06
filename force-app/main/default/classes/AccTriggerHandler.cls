@@ -7,7 +7,7 @@ public with sharing class AccTriggerHandler {
             }
         }
     }
-
+//deneme
     public static void addErr4(List<Account> Triggernew, List<Account> Triggerold, Map<Id, Account> TriggernewMap,  Map<Id, Account> TriggeroldMap){
         for(Account acc : Triggerold){
             if(acc.Type == 'Other'){
