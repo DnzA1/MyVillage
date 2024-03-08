@@ -1,0 +1,19 @@
+<template>
+    <lightning-card>
+        <div class="slds-m-around_small">
+            <div class="slds-m-bottom_medium">
+                <lightning-button
+                stretch
+                label="Post Callout"
+                variant="brand"
+                onclick={clickHandler}
+                ></lightning-button> 
+            </div>
+            <template if:true={isShow}>
+            <div>
+                <p>Your request has been sent succesfully and Callout record has been created. To see details <a href={calloutPath} target="_blank">click here.</a> </p>
+            </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>
